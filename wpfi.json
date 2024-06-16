@@ -1,0 +1,1802 @@
+[
+  {
+    "Ranking": 1,
+    "Country": "Norway",
+    "Score": 92.65,
+    "Political Context": 94.89,
+    "Economic Context": 90.38,
+    "Legal Framework": 92.23,
+    "Safety Score": 92.03,
+    "Sociocultural Context": 93.71
+  },
+  {
+    "Ranking": 2,
+    "Country": "Denmark",
+    "Score": 90.27,
+    "Political Context": 94.34,
+    "Economic Context": 83.67,
+    "Legal Framework": 89.18,
+    "Safety Score": 92.97,
+    "Sociocultural Context": 91.17
+  },
+  {
+    "Ranking": 3,
+    "Country": "Sweden",
+    "Score": 88.84,
+    "Political Context": 91.96,
+    "Economic Context": 87.66,
+    "Legal Framework": 90.27,
+    "Safety Score": 84.14,
+    "Sociocultural Context": 90.18
+  },
+  {
+    "Ranking": 4,
+    "Country": "Estonia",
+    "Score": 88.83,
+    "Political Context": 91.11,
+    "Economic Context": 81.97,
+    "Legal Framework": 87.87,
+    "Safety Score": 93.2,
+    "Sociocultural Context": 90
+  },
+  {
+    "Ranking": 5,
+    "Country": "Finland",
+    "Score": 88.42,
+    "Political Context": 90.4,
+    "Economic Context": 82.03,
+    "Legal Framework": 86.64,
+    "Safety Score": 92.26,
+    "Sociocultural Context": 90.77
+  },
+  {
+    "Ranking": 6,
+    "Country": "Ireland",
+    "Score": 88.3,
+    "Political Context": 89.24,
+    "Economic Context": 79.08,
+    "Legal Framework": 85.09,
+    "Safety Score": 95.58,
+    "Sociocultural Context": 92.5
+  },
+  {
+    "Ranking": 7,
+    "Country": "Portugal",
+    "Score": 87.07,
+    "Political Context": 91.86,
+    "Economic Context": 77.41,
+    "Legal Framework": 84.21,
+    "Safety Score": 88.73,
+    "Sociocultural Context": 93.14
+  },
+  {
+    "Ranking": 8,
+    "Country": "Costa Rica",
+    "Score": 85.92,
+    "Political Context": 81.62,
+    "Economic Context": 72.96,
+    "Legal Framework": 87.72,
+    "Safety Score": 94.78,
+    "Sociocultural Context": 92.5
+  },
+  {
+    "Ranking": 9,
+    "Country": "Lithuania",
+    "Score": 84.14,
+    "Political Context": 87.01,
+    "Economic Context": 72.16,
+    "Legal Framework": 84.46,
+    "Safety Score": 87.37,
+    "Sociocultural Context": 89.71
+  },
+  {
+    "Ranking": 10,
+    "Country": "Liechtenstein",
+    "Score": 84.03,
+    "Political Context": 80.36,
+    "Economic Context": 68.78,
+    "Legal Framework": 84.74,
+    "Safety Score": 96.46,
+    "Sociocultural Context": 89.8
+  },
+  {
+    "Ranking": 11,
+    "Country": "New Zealand",
+    "Score": 83.54,
+    "Political Context": 90.15,
+    "Economic Context": 75.26,
+    "Legal Framework": 74.78,
+    "Safety Score": 87.76,
+    "Sociocultural Context": 89.75
+  },
+  {
+    "Ranking": 12,
+    "Country": "Jamaica",
+    "Score": 83.35,
+    "Political Context": 74.85,
+    "Economic Context": 71.94,
+    "Legal Framework": 82.46,
+    "Safety Score": 92.52,
+    "Sociocultural Context": 95
+  },
+  {
+    "Ranking": 13,
+    "Country": "Seychelles",
+    "Score": 83.33,
+    "Political Context": 80.45,
+    "Economic Context": 69.13,
+    "Legal Framework": 85.31,
+    "Safety Score": 91.5,
+    "Sociocultural Context": 90.25
+  },
+  {
+    "Ranking": 14,
+    "Country": "Switzerland",
+    "Score": 82.72,
+    "Political Context": 90,
+    "Economic Context": 68.37,
+    "Legal Framework": 80.99,
+    "Safety Score": 85.92,
+    "Sociocultural Context": 88.33
+  },
+  {
+    "Ranking": 15,
+    "Country": "Iceland",
+    "Score": 82.69,
+    "Political Context": 86.21,
+    "Economic Context": 65.56,
+    "Legal Framework": 82.68,
+    "Safety Score": 91.5,
+    "Sociocultural Context": 87.5
+  },
+  {
+    "Ranking": 16,
+    "Country": "Germany",
+    "Score": 82.04,
+    "Political Context": 87.03,
+    "Economic Context": 80.07,
+    "Legal Framework": 87.08,
+    "Safety Score": 66.58,
+    "Sociocultural Context": 89.47
+  },
+  {
+    "Ranking": 17,
+    "Country": "Timor-Leste",
+    "Score": 81.89,
+    "Political Context": 85.45,
+    "Economic Context": 68.71,
+    "Legal Framework": 85.96,
+    "Safety Score": 93.65,
+    "Sociocultural Context": 75.67
+  },
+  {
+    "Ranking": 18,
+    "Country": "Namibia",
+    "Score": 81.84,
+    "Political Context": 72.97,
+    "Economic Context": 69.8,
+    "Legal Framework": 82.98,
+    "Safety Score": 91.84,
+    "Sociocultural Context": 91.6
+  },
+  {
+    "Ranking": 19,
+    "Country": "Canada",
+    "Score": 81.74,
+    "Political Context": 82.27,
+    "Economic Context": 71.17,
+    "Legal Framework": 80.26,
+    "Safety Score": 82.99,
+    "Sociocultural Context": 92
+  },
+  {
+    "Ranking": 20,
+    "Country": "Czech Republic",
+    "Score": 80.54,
+    "Political Context": 79.66,
+    "Economic Context": 61.56,
+    "Legal Framework": 84.21,
+    "Safety Score": 88.81,
+    "Sociocultural Context": 88.44
+  },
+  {
+    "Ranking": 21,
+    "Country": "Luxembourg",
+    "Score": 79.81,
+    "Political Context": 82.94,
+    "Economic Context": 66.33,
+    "Legal Framework": 72.93,
+    "Safety Score": 88.14,
+    "Sociocultural Context": 88.71
+  },
+  {
+    "Ranking": 22,
+    "Country": "Latvia",
+    "Score": 79.17,
+    "Political Context": 78.96,
+    "Economic Context": 64.58,
+    "Legal Framework": 80.89,
+    "Safety Score": 84.06,
+    "Sociocultural Context": 87.36
+  },
+  {
+    "Ranking": 23,
+    "Country": "Belgium",
+    "Score": 78.86,
+    "Political Context": 75.03,
+    "Economic Context": 71.22,
+    "Legal Framework": 79.3,
+    "Safety Score": 81.35,
+    "Sociocultural Context": 87.4
+  },
+  {
+    "Ranking": 24,
+    "Country": "UK",
+    "Score": 78.71,
+    "Political Context": 80.57,
+    "Economic Context": 72.75,
+    "Legal Framework": 76.63,
+    "Safety Score": 79.33,
+    "Sociocultural Context": 84.29
+  },
+  {
+    "Ranking": 25,
+    "Country": "Trinidad and Tobago",
+    "Score": 78.68,
+    "Political Context": 73.94,
+    "Economic Context": 67.86,
+    "Legal Framework": 74.56,
+    "Safety Score": 92.52,
+    "Sociocultural Context": 84.5
+  },
+  {
+    "Ranking": 26,
+    "Country": "France",
+    "Score": 78.53,
+    "Political Context": 79.85,
+    "Economic Context": 67.86,
+    "Legal Framework": 86.51,
+    "Safety Score": 69.05,
+    "Sociocultural Context": 89.38
+  },
+  {
+    "Ranking": 27,
+    "Country": "Slovakia",
+    "Score": 78.37,
+    "Political Context": 71.44,
+    "Economic Context": 67.98,
+    "Legal Framework": 82.02,
+    "Safety Score": 84.01,
+    "Sociocultural Context": 86.38
+  },
+  {
+    "Ranking": 28,
+    "Country": "Netherlands",
+    "Score": 77.93,
+    "Political Context": 86.3,
+    "Economic Context": 82.86,
+    "Legal Framework": 87.28,
+    "Safety Score": 47.09,
+    "Sociocultural Context": 86.1
+  },
+  {
+    "Ranking": 29,
+    "Country": "Argentina",
+    "Score": 77.28,
+    "Political Context": 76.36,
+    "Economic Context": 51.53,
+    "Legal Framework": 90.68,
+    "Safety Score": 82.06,
+    "Sociocultural Context": 85.75
+  },
+  {
+    "Ranking": 30,
+    "Country": "Dominican Republic",
+    "Score": 76.9,
+    "Political Context": 71.52,
+    "Economic Context": 62.24,
+    "Legal Framework": 85.96,
+    "Safety Score": 72.79,
+    "Sociocultural Context": 92
+  },
+  {
+    "Ranking": 31,
+    "Country": "Austria",
+    "Score": 76.74,
+    "Political Context": 77.82,
+    "Economic Context": 61.43,
+    "Legal Framework": 74.54,
+    "Safety Score": 84.29,
+    "Sociocultural Context": 81.2
+  },
+  {
+    "Ranking": 32,
+    "Country": "Spain",
+    "Score": 76.71,
+    "Political Context": 72.73,
+    "Economic Context": 63.38,
+    "Legal Framework": 82.16,
+    "Safety Score": 83.4,
+    "Sociocultural Context": 81.89
+  },
+  {
+    "Ranking": 33,
+    "Country": "Bhutan",
+    "Score": 76.46,
+    "Political Context": 78.79,
+    "Economic Context": 62.24,
+    "Legal Framework": 70.39,
+    "Safety Score": 93.88,
+    "Sociocultural Context": 77
+  },
+  {
+    "Ranking": 34,
+    "Country": "Guyana",
+    "Score": 76.41,
+    "Political Context": 70.06,
+    "Economic Context": 67.76,
+    "Legal Framework": 75.61,
+    "Safety Score": 87.21,
+    "Sociocultural Context": 81.4
+  },
+  {
+    "Ranking": 35,
+    "Country": "South Africa",
+    "Score": 75.56,
+    "Political Context": 75.96,
+    "Economic Context": 62.59,
+    "Legal Framework": 84.36,
+    "Safety Score": 72.39,
+    "Sociocultural Context": 82.5
+  },
+  {
+    "Ranking": 36,
+    "Country": "Cabo Verde",
+    "Score": 75.37,
+    "Political Context": 72.55,
+    "Economic Context": 62.76,
+    "Legal Framework": 77.98,
+    "Safety Score": 88.16,
+    "Sociocultural Context": 75.4
+  },
+  {
+    "Ranking": 37,
+    "Country": "Ivory Coast",
+    "Score": 74.46,
+    "Political Context": 74.89,
+    "Economic Context": 58.45,
+    "Legal Framework": 75.94,
+    "Safety Score": 81.6,
+    "Sociocultural Context": 81.43
+  },
+  {
+    "Ranking": 38,
+    "Country": "Taiwan",
+    "Score": 74.08,
+    "Political Context": 74.78,
+    "Economic Context": 51.88,
+    "Legal Framework": 79.01,
+    "Safety Score": 87.02,
+    "Sociocultural Context": 77.69
+  },
+  {
+    "Ranking": 39,
+    "Country": "Australia",
+    "Score": 73.77,
+    "Political Context": 77.17,
+    "Economic Context": 63.44,
+    "Legal Framework": 64.18,
+    "Safety Score": 79.88,
+    "Sociocultural Context": 84.17
+  },
+  {
+    "Ranking": 40,
+    "Country": "Moldova",
+    "Score": 73.47,
+    "Political Context": 70.15,
+    "Economic Context": 47.83,
+    "Legal Framework": 83,
+    "Safety Score": 80.48,
+    "Sociocultural Context": 85.88
+  },
+  {
+    "Ranking": 41,
+    "Country": "Burkina Faso",
+    "Score": 73.12,
+    "Political Context": 78.99,
+    "Economic Context": 67.69,
+    "Legal Framework": 75.58,
+    "Safety Score": 55.52,
+    "Sociocultural Context": 87.83
+  },
+  {
+    "Ranking": 42,
+    "Country": "United States",
+    "Score": 72.74,
+    "Political Context": 72.99,
+    "Economic Context": 59.33,
+    "Legal Framework": 77.32,
+    "Safety Score": 72.63,
+    "Sociocultural Context": 81.43
+  },
+  {
+    "Ranking": 43,
+    "Country": "South Korea",
+    "Score": 72.11,
+    "Political Context": 71.15,
+    "Economic Context": 55.31,
+    "Legal Framework": 72.81,
+    "Safety Score": 81.5,
+    "Sociocultural Context": 79.8
+  },
+  {
+    "Ranking": 44,
+    "Country": "Uruguay",
+    "Score": 72.03,
+    "Political Context": 70.3,
+    "Economic Context": 49.32,
+    "Legal Framework": 83.63,
+    "Safety Score": 84.58,
+    "Sociocultural Context": 72.33
+  },
+  {
+    "Ranking": 45,
+    "Country": "Samoa",
+    "Score": 71.39,
+    "Political Context": 61.82,
+    "Economic Context": 56.12,
+    "Legal Framework": 64.91,
+    "Safety Score": 89.12,
+    "Sociocultural Context": 85
+  },
+  {
+    "Ranking": 46,
+    "Country": "Sierra Leone",
+    "Score": 71.03,
+    "Political Context": 73.71,
+    "Economic Context": 50.38,
+    "Legal Framework": 78.4,
+    "Safety Score": 75.14,
+    "Sociocultural Context": 77.5
+  },
+  {
+    "Ranking": 47,
+    "Country": "Belize",
+    "Score": 70.67,
+    "Political Context": 70,
+    "Economic Context": 52.04,
+    "Legal Framework": 63.6,
+    "Safety Score": 85.71,
+    "Sociocultural Context": 82
+  },
+  {
+    "Ranking": 48,
+    "Country": "Croatia",
+    "Score": 70.42,
+    "Political Context": 68.26,
+    "Economic Context": 50.46,
+    "Legal Framework": 79.19,
+    "Safety Score": 78.08,
+    "Sociocultural Context": 76.09
+  },
+  {
+    "Ranking": 49,
+    "Country": "Tonga",
+    "Score": 69.74,
+    "Political Context": 69.7,
+    "Economic Context": 53.06,
+    "Legal Framework": 66.67,
+    "Safety Score": 89.8,
+    "Sociocultural Context": 69.5
+  },
+  {
+    "Ranking": 50,
+    "Country": "The Gambia",
+    "Score": 69.25,
+    "Political Context": 71.11,
+    "Economic Context": 51.36,
+    "Legal Framework": 67.69,
+    "Safety Score": 74.74,
+    "Sociocultural Context": 81.33
+  },
+  {
+    "Ranking": 51,
+    "Country": "Armenia",
+    "Score": 68.97,
+    "Political Context": 66.26,
+    "Economic Context": 44.44,
+    "Legal Framework": 77.88,
+    "Safety Score": 79.91,
+    "Sociocultural Context": 76.33
+  },
+  {
+    "Ranking": 52,
+    "Country": "Suriname",
+    "Score": 68.95,
+    "Political Context": 67.88,
+    "Economic Context": 55.1,
+    "Legal Framework": 62.28,
+    "Safety Score": 75.51,
+    "Sociocultural Context": 84
+  },
+  {
+    "Ranking": 53,
+    "Country": "Andorra",
+    "Score": 68.79,
+    "Political Context": 68.12,
+    "Economic Context": 50.41,
+    "Legal Framework": 69.12,
+    "Safety Score": 87.48,
+    "Sociocultural Context": 68.8
+  },
+  {
+    "Ranking": 54,
+    "Country": "Slovenia",
+    "Score": 68.54,
+    "Political Context": 59.32,
+    "Economic Context": 47.7,
+    "Legal Framework": 79.11,
+    "Safety Score": 76.61,
+    "Sociocultural Context": 79.94
+  },
+  {
+    "Ranking": 55,
+    "Country": "OECS",
+    "Score": 68.49,
+    "Political Context": 62.91,
+    "Economic Context": 48.37,
+    "Legal Framework": 68.25,
+    "Safety Score": 83.13,
+    "Sociocultural Context": 79.8
+  },
+  {
+    "Ranking": 56,
+    "Country": "Romania",
+    "Score": 68.46,
+    "Political Context": 66.77,
+    "Economic Context": 46.77,
+    "Legal Framework": 76.46,
+    "Safety Score": 70.63,
+    "Sociocultural Context": 81.67
+  },
+  {
+    "Ranking": 57,
+    "Country": "North Macedonia",
+    "Score": 68.44,
+    "Political Context": 66.16,
+    "Economic Context": 43.71,
+    "Legal Framework": 81.29,
+    "Safety Score": 77.85,
+    "Sociocultural Context": 73.17
+  },
+  {
+    "Ranking": 58,
+    "Country": "Italy",
+    "Score": 68.16,
+    "Political Context": 65.89,
+    "Economic Context": 47.52,
+    "Legal Framework": 73.93,
+    "Safety Score": 73.48,
+    "Sociocultural Context": 80
+  },
+  {
+    "Ranking": 59,
+    "Country": "Niger",
+    "Score": 67.8,
+    "Political Context": 62.3,
+    "Economic Context": 46.73,
+    "Legal Framework": 71.75,
+    "Safety Score": 81.69,
+    "Sociocultural Context": 76.5
+  },
+  {
+    "Ranking": 60,
+    "Country": "Ghana",
+    "Score": 67.43,
+    "Political Context": 66.61,
+    "Economic Context": 47.22,
+    "Legal Framework": 81.42,
+    "Safety Score": 62.25,
+    "Sociocultural Context": 79.64
+  },
+  {
+    "Ranking": 61,
+    "Country": "Kosovo",
+    "Score": 67,
+    "Political Context": 64.34,
+    "Economic Context": 45.24,
+    "Legal Framework": 80.85,
+    "Safety Score": 70.26,
+    "Sociocultural Context": 74.33
+  },
+  {
+    "Ranking": 62,
+    "Country": "Papua New Guinea",
+    "Score": 66.66,
+    "Political Context": 62.42,
+    "Economic Context": 45.24,
+    "Legal Framework": 66.08,
+    "Safety Score": 78.23,
+    "Sociocultural Context": 81.33
+  },
+  {
+    "Ranking": 63,
+    "Country": "Montenegro",
+    "Score": 66.54,
+    "Political Context": 62.51,
+    "Economic Context": 47.67,
+    "Legal Framework": 77.19,
+    "Safety Score": 74.33,
+    "Sociocultural Context": 71
+  },
+  {
+    "Ranking": 64,
+    "Country": "Mauritius",
+    "Score": 66.07,
+    "Political Context": 55.58,
+    "Economic Context": 47.81,
+    "Legal Framework": 64.29,
+    "Safety Score": 82.5,
+    "Sociocultural Context": 80.29
+  },
+  {
+    "Ranking": 65,
+    "Country": "Cyprus",
+    "Score": 65.97,
+    "Political Context": 61.21,
+    "Economic Context": 42.09,
+    "Legal Framework": 74.56,
+    "Safety Score": 86.25,
+    "Sociocultural Context": 65.75
+  },
+  {
+    "Ranking": 66,
+    "Country": "Poland",
+    "Score": 65.64,
+    "Political Context": 50.95,
+    "Economic Context": 57.41,
+    "Legal Framework": 68.95,
+    "Safety Score": 68.33,
+    "Sociocultural Context": 82.53
+  },
+  {
+    "Ranking": 67,
+    "Country": "Bosnia-Herzegovina",
+    "Score": 65.64,
+    "Political Context": 61.56,
+    "Economic Context": 40.23,
+    "Legal Framework": 79.57,
+    "Safety Score": 74.95,
+    "Sociocultural Context": 71.86
+  },
+  {
+    "Ranking": 68,
+    "Country": "Ecuador",
+    "Score": 64.61,
+    "Political Context": 60.1,
+    "Economic Context": 55.44,
+    "Legal Framework": 67.98,
+    "Safety Score": 70.03,
+    "Sociocultural Context": 69.5
+  },
+  {
+    "Ranking": 69,
+    "Country": "Kenya",
+    "Score": 64.59,
+    "Political Context": 62.42,
+    "Economic Context": 46.33,
+    "Legal Framework": 72.28,
+    "Safety Score": 63.92,
+    "Sociocultural Context": 78
+  },
+  {
+    "Ranking": 70,
+    "Country": "Haiti",
+    "Score": 64.55,
+    "Political Context": 59.6,
+    "Economic Context": 50.34,
+    "Legal Framework": 72.22,
+    "Safety Score": 59.91,
+    "Sociocultural Context": 80.67
+  },
+  {
+    "Ranking": 71,
+    "Country": "Japan",
+    "Score": 64.37,
+    "Political Context": 54.66,
+    "Economic Context": 53.7,
+    "Legal Framework": 66.23,
+    "Safety Score": 80.19,
+    "Sociocultural Context": 67.06
+  },
+  {
+    "Ranking": 72,
+    "Country": "Kyrgyzstan",
+    "Score": 64.25,
+    "Political Context": 59.9,
+    "Economic Context": 48.64,
+    "Legal Framework": 68.86,
+    "Safety Score": 74.83,
+    "Sociocultural Context": 69
+  },
+  {
+    "Ranking": 73,
+    "Country": "Senegal",
+    "Score": 63.07,
+    "Political Context": 59.31,
+    "Economic Context": 42.13,
+    "Legal Framework": 66.67,
+    "Safety Score": 74.84,
+    "Sociocultural Context": 72.43
+  },
+  {
+    "Ranking": 74,
+    "Country": "Panama",
+    "Score": 62.78,
+    "Political Context": 54.24,
+    "Economic Context": 47.45,
+    "Legal Framework": 64.04,
+    "Safety Score": 74.15,
+    "Sociocultural Context": 74
+  },
+  {
+    "Ranking": 75,
+    "Country": "Liberia",
+    "Score": 62.77,
+    "Political Context": 55.5,
+    "Economic Context": 32.8,
+    "Legal Framework": 74.69,
+    "Safety Score": 68.3,
+    "Sociocultural Context": 82.57
+  },
+  {
+    "Ranking": 76,
+    "Country": "Nepal",
+    "Score": 62.67,
+    "Political Context": 59.8,
+    "Economic Context": 40.14,
+    "Legal Framework": 66.08,
+    "Safety Score": 69.99,
+    "Sociocultural Context": 77.33
+  },
+  {
+    "Ranking": 77,
+    "Country": "Peru",
+    "Score": 61.75,
+    "Political Context": 66.67,
+    "Economic Context": 41.84,
+    "Legal Framework": 70.61,
+    "Safety Score": 66.35,
+    "Sociocultural Context": 63
+  },
+  {
+    "Ranking": 78,
+    "Country": "Malta",
+    "Score": 61.55,
+    "Political Context": 46.82,
+    "Economic Context": 41.33,
+    "Legal Framework": 67.98,
+    "Safety Score": 76.87,
+    "Sociocultural Context": 74.75
+  },
+  {
+    "Ranking": 79,
+    "Country": "Serbia",
+    "Score": 61.51,
+    "Political Context": 47.47,
+    "Economic Context": 34.92,
+    "Legal Framework": 79.92,
+    "Safety Score": 71.03,
+    "Sociocultural Context": 74.22
+  },
+  {
+    "Ranking": 80,
+    "Country": "Malawi",
+    "Score": 61.4,
+    "Political Context": 55.76,
+    "Economic Context": 38.44,
+    "Legal Framework": 78.07,
+    "Safety Score": 67.08,
+    "Sociocultural Context": 67.67
+  },
+  {
+    "Ranking": 81,
+    "Country": "North Cyprus",
+    "Score": 61.08,
+    "Political Context": 56.48,
+    "Economic Context": 38.78,
+    "Legal Framework": 69.82,
+    "Safety Score": 80.14,
+    "Sociocultural Context": 60.2
+  },
+  {
+    "Ranking": 82,
+    "Country": "Chile",
+    "Score": 60.61,
+    "Political Context": 65.03,
+    "Economic Context": 42.86,
+    "Legal Framework": 67.63,
+    "Safety Score": 55.15,
+    "Sociocultural Context": 72.4
+  },
+  {
+    "Ranking": 83,
+    "Country": "Comoros",
+    "Score": 60.16,
+    "Political Context": 56.36,
+    "Economic Context": 50.26,
+    "Legal Framework": 59.98,
+    "Safety Score": 58.56,
+    "Sociocultural Context": 75.63
+  },
+  {
+    "Ranking": 84,
+    "Country": "Guinea",
+    "Score": 59.82,
+    "Political Context": 59.26,
+    "Economic Context": 47.05,
+    "Legal Framework": 71.15,
+    "Safety Score": 50.96,
+    "Sociocultural Context": 70.67
+  },
+  {
+    "Ranking": 85,
+    "Country": "Hungary",
+    "Score": 59.8,
+    "Political Context": 47.07,
+    "Economic Context": 32.31,
+    "Legal Framework": 67.25,
+    "Safety Score": 85.03,
+    "Sociocultural Context": 67.33
+  },
+  {
+    "Ranking": 86,
+    "Country": "Israel",
+    "Score": 59.62,
+    "Political Context": 65.15,
+    "Economic Context": 55.1,
+    "Legal Framework": 53.51,
+    "Safety Score": 46.61,
+    "Sociocultural Context": 77.75
+  },
+  {
+    "Ranking": 87,
+    "Country": "Maldives",
+    "Score": 59.55,
+    "Political Context": 62.27,
+    "Economic Context": 38.27,
+    "Legal Framework": 67.11,
+    "Safety Score": 75.12,
+    "Sociocultural Context": 55
+  },
+  {
+    "Ranking": 88,
+    "Country": "Lesotho",
+    "Score": 59.39,
+    "Political Context": 57.37,
+    "Economic Context": 40.14,
+    "Legal Framework": 57.31,
+    "Safety Score": 68.11,
+    "Sociocultural Context": 74
+  },
+  {
+    "Ranking": 89,
+    "Country": "Georgia",
+    "Score": 59.3,
+    "Political Context": 52.42,
+    "Economic Context": 46.43,
+    "Legal Framework": 80.79,
+    "Safety Score": 41.34,
+    "Sociocultural Context": 75.5
+  },
+  {
+    "Ranking": 90,
+    "Country": "Mongolia",
+    "Score": 59.17,
+    "Political Context": 55.48,
+    "Economic Context": 36.18,
+    "Legal Framework": 60.37,
+    "Safety Score": 74.27,
+    "Sociocultural Context": 69.55
+  },
+  {
+    "Ranking": 91,
+    "Country": "Bulgaria",
+    "Score": 59.12,
+    "Political Context": 54.95,
+    "Economic Context": 30.1,
+    "Legal Framework": 68.71,
+    "Safety Score": 75.02,
+    "Sociocultural Context": 66.83
+  },
+  {
+    "Ranking": 92,
+    "Country": "Guinea Bissau",
+    "Score": 58.79,
+    "Political Context": 59.26,
+    "Economic Context": 50.82,
+    "Legal Framework": 68.42,
+    "Safety Score": 61.18,
+    "Sociocultural Context": 62.4
+  },
+  {
+    "Ranking": 93,
+    "Country": "Congo- Brazzaville",
+    "Score": 58.64,
+    "Political Context": 58.06,
+    "Economic Context": 48.57,
+    "Legal Framework": 64.21,
+    "Safety Score": 59.76,
+    "Sociocultural Context": 62.6
+  },
+  {
+    "Ranking": 94,
+    "Country": "Tunisia",
+    "Score": 58.49,
+    "Political Context": 61.82,
+    "Economic Context": 41.84,
+    "Legal Framework": 67.19,
+    "Safety Score": 51.42,
+    "Sociocultural Context": 70.2
+  },
+  {
+    "Ranking": 95,
+    "Country": "Botswana",
+    "Score": 58.49,
+    "Political Context": 56.97,
+    "Economic Context": 37.24,
+    "Legal Framework": 56.36,
+    "Safety Score": 72.11,
+    "Sociocultural Context": 69.75
+  },
+  {
+    "Ranking": 96,
+    "Country": "Paraguay",
+    "Score": 58.36,
+    "Political Context": 54.24,
+    "Economic Context": 31.12,
+    "Legal Framework": 75.44,
+    "Safety Score": 65.99,
+    "Sociocultural Context": 65
+  },
+  {
+    "Ranking": 97,
+    "Country": "Mauritania",
+    "Score": 58.1,
+    "Political Context": 55.15,
+    "Economic Context": 35.13,
+    "Legal Framework": 64.29,
+    "Safety Score": 71.67,
+    "Sociocultural Context": 64.29
+  },
+  {
+    "Ranking": 98,
+    "Country": "Madagascar",
+    "Score": 58.02,
+    "Political Context": 52.58,
+    "Economic Context": 35.08,
+    "Legal Framework": 64.47,
+    "Safety Score": 73.47,
+    "Sociocultural Context": 64.5
+  },
+  {
+    "Ranking": 99,
+    "Country": "Angola",
+    "Score": 57.17,
+    "Political Context": 52.83,
+    "Economic Context": 35.03,
+    "Legal Framework": 61.11,
+    "Safety Score": 63.87,
+    "Sociocultural Context": 73
+  },
+  {
+    "Ranking": 100,
+    "Country": "Togo",
+    "Score": 57.17,
+    "Political Context": 57.52,
+    "Economic Context": 53.06,
+    "Legal Framework": 61.93,
+    "Safety Score": 55.15,
+    "Sociocultural Context": 69.5
+  },
+  {
+    "Ranking": 101,
+    "Country": "The Central African Republic",
+    "Score": 56.96,
+    "Political Context": 51.21,
+    "Economic Context": 41.07,
+    "Legal Framework": 62.06,
+    "Safety Score": 62.19,
+    "Sociocultural Context": 68.25
+  },
+  {
+    "Ranking": 102,
+    "Country": "Fiji",
+    "Score": 56.91,
+    "Political Context": 44.85,
+    "Economic Context": 39.8,
+    "Legal Framework": 58.33,
+    "Safety Score": 77.55,
+    "Sociocultural Context": 64
+  },
+  {
+    "Ranking": 103,
+    "Country": "Albania",
+    "Score": 56.41,
+    "Political Context": 50.55,
+    "Economic Context": 29.39,
+    "Legal Framework": 68.77,
+    "Safety Score": 66.75,
+    "Sociocultural Context": 66.6
+  },
+  {
+    "Ranking": 104,
+    "Country": "Chad",
+    "Score": 56.18,
+    "Political Context": 55.88,
+    "Economic Context": 43.27,
+    "Legal Framework": 60.35,
+    "Safety Score": 58.21,
+    "Sociocultural Context": 63.2
+  },
+  {
+    "Ranking": 105,
+    "Country": "Gabon",
+    "Score": 56,
+    "Political Context": 48.38,
+    "Economic Context": 39.46,
+    "Legal Framework": 56.14,
+    "Safety Score": 70.52,
+    "Sociocultural Context": 62.5
+  },
+  {
+    "Ranking": 106,
+    "Country": "Ukraine",
+    "Score": 55.76,
+    "Political Context": 61.21,
+    "Economic Context": 42.86,
+    "Legal Framework": 79.45,
+    "Safety Score": 18.84,
+    "Sociocultural Context": 76.43
+  },
+  {
+    "Ranking": 107,
+    "Country": "Burundi",
+    "Score": 55.74,
+    "Political Context": 50.03,
+    "Economic Context": 44.67,
+    "Legal Framework": 59.55,
+    "Safety Score": 77.66,
+    "Sociocultural Context": 52.78
+  },
+  {
+    "Ranking": 108,
+    "Country": "Greece",
+    "Score": 55.52,
+    "Political Context": 60.5,
+    "Economic Context": 38.13,
+    "Legal Framework": 69.54,
+    "Safety Score": 44.1,
+    "Sociocultural Context": 65.36
+  },
+  {
+    "Ranking": 109,
+    "Country": "Zambia",
+    "Score": 55.4,
+    "Political Context": 52.35,
+    "Economic Context": 37.76,
+    "Legal Framework": 58.33,
+    "Safety Score": 64.55,
+    "Sociocultural Context": 64
+  },
+  {
+    "Ranking": 110,
+    "Country": "Brazil",
+    "Score": 55.36,
+    "Political Context": 51.62,
+    "Economic Context": 37.59,
+    "Legal Framework": 69.74,
+    "Safety Score": 47.86,
+    "Sociocultural Context": 70
+  },
+  {
+    "Ranking": 111,
+    "Country": "Mali",
+    "Score": 54.48,
+    "Political Context": 35.15,
+    "Economic Context": 42.6,
+    "Legal Framework": 74.34,
+    "Safety Score": 41.81,
+    "Sociocultural Context": 78.5
+  },
+  {
+    "Ranking": 112,
+    "Country": "El Salvador",
+    "Score": 54.09,
+    "Political Context": 42.94,
+    "Economic Context": 39.07,
+    "Legal Framework": 63.22,
+    "Safety Score": 62.37,
+    "Sociocultural Context": 62.86
+  },
+  {
+    "Ranking": 113,
+    "Country": "Malaysia",
+    "Score": 51.55,
+    "Political Context": 46.52,
+    "Economic Context": 42.6,
+    "Legal Framework": 40.13,
+    "Safety Score": 72.48,
+    "Sociocultural Context": 56
+  },
+  {
+    "Ranking": 114,
+    "Country": "Ethiopia",
+    "Score": 50.53,
+    "Political Context": 50.65,
+    "Economic Context": 45.77,
+    "Legal Framework": 63.66,
+    "Safety Score": 35.29,
+    "Sociocultural Context": 57.29
+  },
+  {
+    "Ranking": 115,
+    "Country": "Thailand",
+    "Score": 50.15,
+    "Political Context": 58.99,
+    "Economic Context": 45.24,
+    "Legal Framework": 47.37,
+    "Safety Score": 45.5,
+    "Sociocultural Context": 53.67
+  },
+  {
+    "Ranking": 116,
+    "Country": "Mozambique",
+    "Score": 49.89,
+    "Political Context": 46.06,
+    "Economic Context": 40.31,
+    "Legal Framework": 61.62,
+    "Safety Score": 54.21,
+    "Sociocultural Context": 47.25
+  },
+  {
+    "Ranking": 117,
+    "Country": "Indonesia",
+    "Score": 49.27,
+    "Political Context": 45.91,
+    "Economic Context": 41.33,
+    "Legal Framework": 55.7,
+    "Safety Score": 37.42,
+    "Sociocultural Context": 66
+  },
+  {
+    "Ranking": 118,
+    "Country": "Cameroon",
+    "Score": 49.1,
+    "Political Context": 48.05,
+    "Economic Context": 35.71,
+    "Legal Framework": 56.89,
+    "Safety Score": 37.25,
+    "Sociocultural Context": 67.57
+  },
+  {
+    "Ranking": 119,
+    "Country": "Qatar",
+    "Score": 49.03,
+    "Political Context": 59.7,
+    "Economic Context": 46.94,
+    "Legal Framework": 43.86,
+    "Safety Score": 52.17,
+    "Sociocultural Context": 42.5
+  },
+  {
+    "Ranking": 120,
+    "Country": "Jordan",
+    "Score": 48.66,
+    "Political Context": 40,
+    "Economic Context": 32.65,
+    "Legal Framework": 41.23,
+    "Safety Score": 63.4,
+    "Sociocultural Context": 66
+  },
+  {
+    "Ranking": 121,
+    "Country": "Benin",
+    "Score": 48.39,
+    "Political Context": 47.73,
+    "Economic Context": 28.19,
+    "Legal Framework": 57.46,
+    "Safety Score": 53.1,
+    "Sociocultural Context": 55.5
+  },
+  {
+    "Ranking": 122,
+    "Country": "Kazakhstan",
+    "Score": 48.28,
+    "Political Context": 43.52,
+    "Economic Context": 29.8,
+    "Legal Framework": 51.93,
+    "Safety Score": 63.85,
+    "Sociocultural Context": 52.3
+  },
+  {
+    "Ranking": 123,
+    "Country": "Tanzania",
+    "Score": 48.28,
+    "Political Context": 43.88,
+    "Economic Context": 32.65,
+    "Legal Framework": 45.09,
+    "Safety Score": 60.56,
+    "Sociocultural Context": 59.2
+  },
+  {
+    "Ranking": 124,
+    "Country": "Guatemala",
+    "Score": 47.94,
+    "Political Context": 46.06,
+    "Economic Context": 33.67,
+    "Legal Framework": 68.86,
+    "Safety Score": 32.12,
+    "Sociocultural Context": 59
+  },
+  {
+    "Ranking": 125,
+    "Country": "Democratic Republic of Congo",
+    "Score": 47.66,
+    "Political Context": 51.33,
+    "Economic Context": 41.43,
+    "Legal Framework": 60.88,
+    "Safety Score": 24.34,
+    "Sociocultural Context": 60.3
+  },
+  {
+    "Ranking": 126,
+    "Country": "Bolivia",
+    "Score": 47.58,
+    "Political Context": 44.55,
+    "Economic Context": 33.67,
+    "Legal Framework": 58.77,
+    "Safety Score": 55.89,
+    "Sociocultural Context": 45
+  },
+  {
+    "Ranking": 127,
+    "Country": "Mexico",
+    "Score": 47.57,
+    "Political Context": 58.18,
+    "Economic Context": 43.37,
+    "Legal Framework": 65.79,
+    "Safety Score": 11.02,
+    "Sociocultural Context": 59.5
+  },
+  {
+    "Ranking": 128,
+    "Country": "South Sudan",
+    "Score": 47.06,
+    "Political Context": 40.48,
+    "Economic Context": 36.73,
+    "Legal Framework": 52.11,
+    "Safety Score": 55.37,
+    "Sociocultural Context": 50.6
+  },
+  {
+    "Ranking": 129,
+    "Country": "Nigeria",
+    "Score": 46.79,
+    "Political Context": 45.15,
+    "Economic Context": 36.39,
+    "Legal Framework": 53.8,
+    "Safety Score": 28.75,
+    "Sociocultural Context": 69.83
+  },
+  {
+    "Ranking": 130,
+    "Country": "Lebanon",
+    "Score": 46.58,
+    "Political Context": 50.91,
+    "Economic Context": 38.27,
+    "Legal Framework": 50.22,
+    "Safety Score": 33.02,
+    "Sociocultural Context": 60.5
+  },
+  {
+    "Ranking": 131,
+    "Country": "Eswatini",
+    "Score": 46.42,
+    "Political Context": 41.31,
+    "Economic Context": 35.03,
+    "Legal Framework": 43.86,
+    "Safety Score": 61.4,
+    "Sociocultural Context": 50.5
+  },
+  {
+    "Ranking": 132,
+    "Country": "Uganda",
+    "Score": 46.35,
+    "Political Context": 44.7,
+    "Economic Context": 36.99,
+    "Legal Framework": 60.96,
+    "Safety Score": 33.09,
+    "Sociocultural Context": 56
+  },
+  {
+    "Ranking": 133,
+    "Country": "Uzbekistan",
+    "Score": 44.74,
+    "Political Context": 44.75,
+    "Economic Context": 35.71,
+    "Legal Framework": 50.88,
+    "Safety Score": 44.03,
+    "Sociocultural Context": 53.33
+  },
+  {
+    "Ranking": 134,
+    "Country": "Algeria",
+    "Score": 45.53,
+    "Political Context": 41.21,
+    "Economic Context": 32.4,
+    "Legal Framework": 54.17,
+    "Safety Score": 44.02,
+    "Sociocultural Context": 55.88
+  },
+  {
+    "Ranking": 135,
+    "Country": "Morocco/Western Sahara",
+    "Score": 45.42,
+    "Political Context": 51.67,
+    "Economic Context": 28.83,
+    "Legal Framework": 55.81,
+    "Safety Score": 34.82,
+    "Sociocultural Context": 56
+  },
+  {
+    "Ranking": 136,
+    "Country": "Rwanda",
+    "Score": 45.18,
+    "Political Context": 42.12,
+    "Economic Context": 31.89,
+    "Legal Framework": 57.89,
+    "Safety Score": 38.76,
+    "Sociocultural Context": 55.25
+  },
+  {
+    "Ranking": 137,
+    "Country": "Zimbabwe",
+    "Score": 44.94,
+    "Political Context": 40.3,
+    "Economic Context": 32.4,
+    "Legal Framework": 54.17,
+    "Safety Score": 43.34,
+    "Sociocultural Context": 54.5
+  },
+  {
+    "Ranking": 138,
+    "Country": "UAE",
+    "Score": 44.46,
+    "Political Context": 45.45,
+    "Economic Context": 36.73,
+    "Legal Framework": 32.02,
+    "Safety Score": 57.59,
+    "Sociocultural Context": 50.5
+  },
+  {
+    "Ranking": 139,
+    "Country": "Singapore",
+    "Score": 44.23,
+    "Political Context": 39.09,
+    "Economic Context": 29.21,
+    "Legal Framework": 34.21,
+    "Safety Score": 69.39,
+    "Sociocultural Context": 49.25
+  },
+  {
+    "Ranking": 140,
+    "Country": "Somalia",
+    "Score": 44.01,
+    "Political Context": 51.03,
+    "Economic Context": 41.22,
+    "Legal Framework": 47.72,
+    "Safety Score": 18.27,
+    "Sociocultural Context": 61.8
+  },
+  {
+    "Ranking": 141,
+    "Country": "Equatorial Guinea",
+    "Score": 43.96,
+    "Political Context": 42.73,
+    "Economic Context": 24.49,
+    "Legal Framework": 71.15,
+    "Safety Score": 64.04,
+    "Sociocultural Context": 44.25
+  },
+  {
+    "Ranking": 142,
+    "Country": "Cambodia",
+    "Score": 43.48,
+    "Political Context": 42.42,
+    "Economic Context": 27.96,
+    "Legal Framework": 49.65,
+    "Safety Score": 34.96,
+    "Sociocultural Context": 62.4
+  },
+  {
+    "Ranking": 143,
+    "Country": "Libya",
+    "Score": 43.16,
+    "Political Context": 54.42,
+    "Economic Context": 34.9,
+    "Legal Framework": 44.91,
+    "Safety Score": 36.58,
+    "Sociocultural Context": 45
+  },
+  {
+    "Ranking": 144,
+    "Country": "Brunei",
+    "Score": 42.53,
+    "Political Context": 40.61,
+    "Economic Context": 30.61,
+    "Legal Framework": 28.51,
+    "Safety Score": 78.91,
+    "Sociocultural Context": 34
+  },
+  {
+    "Ranking": 145,
+    "Country": "Colombia",
+    "Score": 42.43,
+    "Political Context": 44.7,
+    "Economic Context": 32.27,
+    "Legal Framework": 60.42,
+    "Safety Score": 24.4,
+    "Sociocultural Context": 50.38
+  },
+  {
+    "Ranking": 146,
+    "Country": "Sri Lanka",
+    "Score": 42.13,
+    "Political Context": 40.91,
+    "Economic Context": 27.04,
+    "Legal Framework": 53.07,
+    "Safety Score": 41.37,
+    "Sociocultural Context": 48.25
+  },
+  {
+    "Ranking": 147,
+    "Country": "Philippines",
+    "Score": 41.84,
+    "Political Context": 44.44,
+    "Economic Context": 23.13,
+    "Legal Framework": 54.97,
+    "Safety Score": 24.83,
+    "Sociocultural Context": 61.83
+  },
+  {
+    "Ranking": 148,
+    "Country": "Hong Kong",
+    "Score": 41.64,
+    "Political Context": 40.5,
+    "Economic Context": 35.9,
+    "Legal Framework": 42.58,
+    "Safety Score": 31.78,
+    "Sociocultural Context": 57.45
+  },
+  {
+    "Ranking": 149,
+    "Country": "Turkey",
+    "Score": 41.25,
+    "Political Context": 38.38,
+    "Economic Context": 27.55,
+    "Legal Framework": 62.92,
+    "Safety Score": 32.37,
+    "Sociocultural Context": 55
+  },
+  {
+    "Ranking": 150,
+    "Country": "India",
+    "Score": 41,
+    "Political Context": 40.76,
+    "Economic Context": 30.36,
+    "Legal Framework": 57.02,
+    "Safety Score": 20.61,
+    "Sociocultural Context": 56.25
+  },
+  {
+    "Ranking": 151,
+    "Country": "Sudan",
+    "Score": 40.96,
+    "Political Context": 47.05,
+    "Economic Context": 29.97,
+    "Legal Framework": 41.45,
+    "Safety Score": 35.35,
+    "Sociocultural Context": 51
+  },
+  {
+    "Ranking": 152,
+    "Country": "Tajikistan",
+    "Score": 40.26,
+    "Political Context": 33.79,
+    "Economic Context": 29.85,
+    "Legal Framework": 48.68,
+    "Safety Score": 42.96,
+    "Sociocultural Context": 46
+  },
+  {
+    "Ranking": 153,
+    "Country": "Belarus",
+    "Score": 39.62,
+    "Political Context": 32.93,
+    "Economic Context": 48.75,
+    "Legal Framework": 37.23,
+    "Safety Score": 18.85,
+    "Sociocultural Context": 60.33
+  },
+  {
+    "Ranking": 154,
+    "Country": "Azerbaijan",
+    "Score": 39.4,
+    "Political Context": 37.66,
+    "Economic Context": 23.76,
+    "Legal Framework": 48.25,
+    "Safety Score": 28.48,
+    "Sociocultural Context": 58.86
+  },
+  {
+    "Ranking": 155,
+    "Country": "Russia",
+    "Score": 38.82,
+    "Political Context": 36.36,
+    "Economic Context": 34.84,
+    "Legal Framework": 44.61,
+    "Safety Score": 27,
+    "Sociocultural Context": 51.29
+  },
+  {
+    "Ranking": 156,
+    "Country": "Afghanistan",
+    "Score": 38.27,
+    "Political Context": 44.65,
+    "Economic Context": 43.88,
+    "Legal Framework": 42.54,
+    "Safety Score": 16.96,
+    "Sociocultural Context": 43.33
+  },
+  {
+    "Ranking": 157,
+    "Country": "Pakistan",
+    "Score": 37.99,
+    "Political Context": 39.57,
+    "Economic Context": 31.92,
+    "Legal Framework": 53.26,
+    "Safety Score": 17.75,
+    "Sociocultural Context": 47.43
+  },
+  {
+    "Ranking": 158,
+    "Country": "Kuwait",
+    "Score": 37.87,
+    "Political Context": 32.73,
+    "Economic Context": 19.39,
+    "Legal Framework": 36.84,
+    "Safety Score": 73.41,
+    "Sociocultural Context": 27
+  },
+  {
+    "Ranking": 159,
+    "Country": "Venezuela",
+    "Score": 37.78,
+    "Political Context": 33.7,
+    "Economic Context": 31.73,
+    "Legal Framework": 44.74,
+    "Safety Score": 31.22,
+    "Sociocultural Context": 47.5
+  },
+  {
+    "Ranking": 160,
+    "Country": "Nicaragua",
+    "Score": 37.09,
+    "Political Context": 37.45,
+    "Economic Context": 38.78,
+    "Legal Framework": 31.75,
+    "Safety Score": 27.68,
+    "Sociocultural Context": 49.8
+  },
+  {
+    "Ranking": 161,
+    "Country": "Laos",
+    "Score": 36.64,
+    "Political Context": 36.06,
+    "Economic Context": 20.92,
+    "Legal Framework": 31.58,
+    "Safety Score": 50.64,
+    "Sociocultural Context": 44
+  },
+  {
+    "Ranking": 162,
+    "Country": "Bangladesh",
+    "Score": 36.63,
+    "Political Context": 42.12,
+    "Economic Context": 32.48,
+    "Legal Framework": 44.15,
+    "Safety Score": 15.88,
+    "Sociocultural Context": 48.5
+  },
+  {
+    "Ranking": 163,
+    "Country": "Oman",
+    "Score": 35.99,
+    "Political Context": 32.73,
+    "Economic Context": 23.98,
+    "Legal Framework": 18.42,
+    "Safety Score": 59.82,
+    "Sociocultural Context": 45
+  },
+  {
+    "Ranking": 164,
+    "Country": "Djibouti",
+    "Score": 35.75,
+    "Political Context": 32.73,
+    "Economic Context": 16.12,
+    "Legal Framework": 37.72,
+    "Safety Score": 54.56,
+    "Sociocultural Context": 37.6
+  },
+  {
+    "Ranking": 165,
+    "Country": "Honduras",
+    "Score": 34.61,
+    "Political Context": 33.33,
+    "Economic Context": 31.63,
+    "Legal Framework": 36.84,
+    "Safety Score": 40.22,
+    "Sociocultural Context": 31
+  },
+  {
+    "Ranking": 166,
+    "Country": "Saudi Arabia",
+    "Score": 33.71,
+    "Political Context": 37.27,
+    "Economic Context": 33.67,
+    "Legal Framework": 22.37,
+    "Safety Score": 38.75,
+    "Sociocultural Context": 36.5
+  },
+  {
+    "Ranking": 167,
+    "Country": "Bahrain",
+    "Score": 30.97,
+    "Political Context": 35.15,
+    "Economic Context": 21.43,
+    "Legal Framework": 28.95,
+    "Safety Score": 29.65,
+    "Sociocultural Context": 39.67
+  },
+  {
+    "Ranking": 168,
+    "Country": "Egypt",
+    "Score": 30.23,
+    "Political Context": 30.91,
+    "Economic Context": 23.47,
+    "Legal Framework": 34.87,
+    "Safety Score": 17.64,
+    "Sociocultural Context": 44.25
+  },
+  {
+    "Ranking": 169,
+    "Country": "Yemen",
+    "Score": 29.14,
+    "Political Context": 33.03,
+    "Economic Context": 27.55,
+    "Legal Framework": 38.6,
+    "Safety Score": 11.54,
+    "Sociocultural Context": 35
+  },
+  {
+    "Ranking": 170,
+    "Country": "Palestine",
+    "Score": 28.98,
+    "Political Context": 35.45,
+    "Economic Context": 15.82,
+    "Legal Framework": 36.4,
+    "Safety Score": 20.74,
+    "Sociocultural Context": 36.5
+  },
+  {
+    "Ranking": 171,
+    "Country": "Syria",
+    "Score": 28.94,
+    "Political Context": 33.51,
+    "Economic Context": 27.62,
+    "Legal Framework": 33.58,
+    "Safety Score": 13.39,
+    "Sociocultural Context": 36.57
+  },
+  {
+    "Ranking": 172,
+    "Country": "Iraq",
+    "Score": 28.59,
+    "Political Context": 34.14,
+    "Economic Context": 20.07,
+    "Legal Framework": 29.82,
+    "Safety Score": 18.27,
+    "Sociocultural Context": 40.67
+  },
+  {
+    "Ranking": 173,
+    "Country": "Cuba",
+    "Score": 27.32,
+    "Political Context": 27.27,
+    "Economic Context": 39.8,
+    "Legal Framework": 15.79,
+    "Safety Score": 26.24,
+    "Sociocultural Context": 27.5
+  },
+  {
+    "Ranking": 174,
+    "Country": "Vietnam",
+    "Score": 26.11,
+    "Political Context": 32.32,
+    "Economic Context": 18.71,
+    "Legal Framework": 27.49,
+    "Safety Score": 17.37,
+    "Sociocultural Context": 34.67
+  },
+  {
+    "Ranking": 175,
+    "Country": "China",
+    "Score": 25.17,
+    "Political Context": 27.45,
+    "Economic Context": 26.02,
+    "Legal Framework": 23.25,
+    "Safety Score": 15.84,
+    "Sociocultural Context": 33.3
+  },
+  {
+    "Ranking": 176,
+    "Country": "Myanmar",
+    "Score": 25.03,
+    "Political Context": 40.4,
+    "Economic Context": 29.25,
+    "Legal Framework": 20.18,
+    "Safety Score": 4.63,
+    "Sociocultural Context": 30.67
+  },
+  {
+    "Ranking": 177,
+    "Country": "Turkmenistan",
+    "Score": 25.01,
+    "Political Context": 25,
+    "Economic Context": 11.73,
+    "Legal Framework": 29.61,
+    "Safety Score": 35.69,
+    "Sociocultural Context": 23
+  },
+  {
+    "Ranking": 178,
+    "Country": "Iran",
+    "Score": 23.22,
+    "Political Context": 34.14,
+    "Economic Context": 21.32,
+    "Legal Framework": 26.71,
+    "Safety Score": 13.61,
+    "Sociocultural Context": 23.78
+  },
+  {
+    "Ranking": 179,
+    "Country": "Eritrea",
+    "Score": 19.62,
+    "Political Context": 22.22,
+    "Economic Context": 19.73,
+    "Legal Framework": 25.15,
+    "Safety Score": 11.36,
+    "Sociocultural Context": 19.67
+  },
+  {
+    "Ranking": 180,
+    "Country": "North Korea",
+    "Score": 13.92,
+    "Political Context": 22.42,
+    "Economic Context": 0,
+    "Legal Framework": 22.81,
+    "Safety Score": 12.38,
+    "Sociocultural Context": 12
+  }
+]
