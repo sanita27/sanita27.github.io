@@ -1,0 +1,86 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Choropleth map showing Press Freedom Index scores by country, filtered by continent.",
+    "title": "Press Freedom Index Scores by Country",
+    "width": 800,
+    "height": 400,
+    "params": [
+        {
+            "name": "selectedContinent",
+            "value": "All",
+            "bind": {
+                "input": "select",
+                "options": ["All", "Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
+                "labels": ["All", "Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
+                "name": "Continent: "
+            }
+        },
+        {
+            "name": "projectionCenter",
+            "value": [0, 0],
+            "expr": "selectedContinent === 'All' ? [0, 0] : selectedContinent === 'Africa' ? [20, 0] : selectedContinent === 'Asia' ? [100, 40] : selectedContinent === 'Europe' ? [10, 50] : selectedContinent === 'North America' ? [-100, 40] : selectedContinent === 'Oceania' ? [140, -25] : selectedContinent === 'South America' ? [-60, -15] : [0, 0]"
+        },
+        {
+            "name": "projectionScale",
+            "value": 150,
+            "expr": "selectedContinent === 'All' ? 150 : 300"
+        }
+    ],
+    "data": {
+        "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/countries.geojson",
+        "format": {
+            "type": "json",
+            "property": "features"
+        }
+    },
+    "transform": [
+        {
+            "lookup": "properties.name",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/merged_data_with_year.csv",
+                    "format": {
+                        "type": "csv"
+                    }
+                },
+                "key": "Country",
+                "fields": ["Score", "Continent"]
+            }
+        },
+        {
+            "filter": "selectedContinent == 'All' || datum.Continent == selectedContinent"
+        },
+        {
+            "calculate": "datum.Score === 'No Data' ? 'No Data' : +datum.Score",
+            "as": "Score"
+        }
+    ],
+    "projection": {
+        "type": "equalEarth",
+        "center": {"signal": "projectionCenter"},
+        "scale": {"signal": "projectionScale"}
+    },
+    "mark": {
+        "type": "geoshape",
+        "stroke": "black",
+        "strokeWidth": 0.5
+    },
+    "encoding": {
+        "color": {
+            "field": "Score",
+            "type": "quantitative",
+            "scale": {
+                "type": "linear",
+                "domain": [0, 100],
+                "range": ["#f7fbff", "#08306b"]
+            },
+            "legend": {
+                "title": "Press Freedom Score"
+            }
+        },
+        "tooltip": [
+            {"field": "properties.name", "type": "nominal", "title": "Country"},
+            {"field": "Score", "type": "quantitative"}
+        ]
+    }
+}

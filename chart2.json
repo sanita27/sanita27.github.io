@@ -1,0 +1,23 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Scatter plot showing the relationship between Economic Context and Safety Score, colored by continent.",
+    "title": "Economic Context vs. Safety Score by Continent",
+    "data": {
+        "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/merged_data.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "mark": "point",
+    "encoding": {
+        "x": {"field": "Economic Context", "type": "quantitative"},
+        "y": {"field": "Safety Score", "type": "quantitative"},
+        "color": {"field": "Continent", "type": "nominal"},
+        "tooltip": [
+            {"field": "Country", "type": "nominal"},
+            {"field": "Economic Context", "type": "quantitative"},
+            {"field": "Safety Score", "type": "quantitative"},
+            {"field": "Continent", "type": "nominal"}
+        ]
+    }
+}

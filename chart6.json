@@ -1,0 +1,79 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Interactive strip plot showing the relationship between Press Freedom Score and Safety Score.",
+    "title": "Relationship between Press Freedom Score and Safety Score",
+    "width": 800,
+    "height": 400,
+    "data": {
+        "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/merged_data_with_year.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "params": [
+        {
+            "name": "continentFilter",
+            "value": "All",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "All", "Africa", "Asia", "Europe", "North America", "Oceania", "South America"
+                ],
+                "labels": [
+                    "All", "Africa", "Asia", "Europe", "North America", "Oceania", "South America"
+                ],
+                "name": "Continent: "
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "continentFilter == 'All' || datum.Continent == continentFilter"
+        }
+    ],
+    "selection": {
+        "highlight": {
+            "type": "single",
+            "on": "mouseover",
+            "empty": "none"
+        },
+        "select": {
+            "type": "multi"
+        }
+    },
+    "mark": "tick",
+    "encoding": {
+        "x": {
+            "field": "Score",
+            "type": "quantitative",
+            "axis": {"title": "Press Freedom Score"}
+        },
+        "y": {
+            "field": "Safety Score",
+            "type": "quantitative",
+            "axis": {"title": "Safety Score"}
+        },
+        "color": {
+            "field": "Continent",
+            "type": "nominal",
+            "legend": {"title": "Continent"}
+        },
+        "opacity": {
+            "condition": [
+                {"selection": "select", "value": 1},
+                {"selection": "highlight", "value": 1}
+            ],
+            "value": 0.2
+        },
+        "size": {
+            "condition": {"selection": "highlight", "value": 100},
+            "value": 50
+        },
+        "tooltip": [
+            {"field": "Country", "type": "nominal"},
+            {"field": "Score", "type": "quantitative"},
+            {"field": "Safety Score", "type": "quantitative"},
+            {"field": "Continent", "type": "nominal"}
+        ]
+    }
+}

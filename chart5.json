@@ -1,0 +1,49 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Bubble chart showing the relationship between the Press Freedom Score and Legal Framework.",
+    "title": "Relationship between Press Freedom Score and Legal Framework",
+    "width": 800,
+    "height": 400,
+    "data": {
+        "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/merged_data_with_year.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "mark": {
+        "type": "circle",
+        "opacity": 0.6,
+        "stroke": "black",
+        "strokeWidth": 1
+    },
+    "encoding": {
+        "x": {
+            "field": "Score",
+            "type": "quantitative",
+            "axis": {"title": "Press Freedom Score"}
+        },
+        "y": {
+            "field": "Legal Framework",
+            "type": "quantitative",
+            "axis": {"title": "Legal Framework Score"}
+        },
+        "size": {
+            "field": "Economic Context",  
+            "type": "quantitative",
+            "scale": {"range": [0, 1000]},
+            "legend": {"title": "Economic Context"}
+        },
+        "color": {
+            "field": "Continent",
+            "type": "nominal",
+            "legend": {"title": "Continent"}
+        },
+        "tooltip": [
+            {"field": "Country", "type": "nominal"},
+            {"field": "Score", "type": "quantitative"},
+            {"field": "Legal Framework", "type": "quantitative"},
+            {"field": "Economic Context", "type": "quantitative"},
+            {"field": "Continent", "type": "nominal"}
+        ]
+    }
+}
