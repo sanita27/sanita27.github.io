@@ -6,5 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     vegaEmbed('#legal', 'chart5.json').catch(console.error);
     vegaEmbed('#safety', 'chart6.json').catch(console.error);
     vegaEmbed('#culture', 'chart7.json').catch(console.error);
+    vegaEmbed('#freedom', 'chart8.json').catch(console.error);
+
 
 });

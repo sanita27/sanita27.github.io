@@ -41,11 +41,11 @@
         <!-- This is a header, it is the largest text on the page -->
         Sajtószabadság Index világszinten
     </h1>
-    <p style="margin-top: 0px; color: darkblue">
+    <h2 style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
         Sebestyén Anita | <a href="https://www.linkedin.com/in/sebestyen-anita//">LinkedIn</a> | <a
             href="https://github.com/sanita27">GitHub</a>
-    </p>
+    </h2>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
         A sajtószabadsági index egy nemzetközi mérőszám, amely a sajtószabadság szintjét mutatja az egyes országokban. Minél alacsonyabb az index értéke, annál kevésbé szabad a sajtó tevékenysége az adott országban. Az indexet évente frissítik és közzéteszik, hogy nyomon lehessen követni a világ különböző részein tapasztalható változásokat a sajtószabadság terén.
     </h3>
@@ -53,30 +53,43 @@
     <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
     <section>
         <div class="chart-description">
-            <h2>Sajtószabadság index kontinensenként - országokra lebontva</h2>
+            <h2>Sajtószabadság index értéke országonként</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                A sajtószabadsági indexet általában civil szervezetek és médiafigyelő szervezetek állítják össze, mint például az újságírók Határok Nélkül (Reporters Without Borders) nevű nemzetközi szervezet. Az index összeállítása során figyelembe veszik többek között az újságírók és médiumok függetlenségét, az állami és nem-állami befolyásolást, az újságírók biztonságát, valamint a jogi kereteket, amelyek védelmezik vagy korlátozzák a sajtó szabadságát.
+                A sajtószabadsági indexet általában civil szervezetek és médiafigyelő szervezetek állítják össze. Az index összeállítása során figyelembe veszik többek között az újságírók és médiumok függetlenségét, az állami és nem-állami befolyásolást, az újságírók biztonságát, valamint a jogi kereteket, amelyek védelmezik vagy korlátozzák a sajtó szabadságát.
             </p>
             <p>
-                Általában Skandinávia és más északi országok szokták vezetni a sajtószabadsági indexet, mivel ezekben az országokban erős a sajtószabadság védelme, alacsony a média befolyásoltsága és viszonylag biztonságosak az újságírók. Ázsia és Afrika számos országa viszont gyakran az alacsonyabb helyeken szerepel a listán, ahol korlátozások és fenyegetések nehezítik az újságírók munkáját és korlátozzák a média szabadságát.
+                Általában Skandinávia és más északi országok szokták vezetni a sajtószabadsági indexet, mivel ezekben az országokban erős a sajtószabadság védelme, alacsony a média befolyásoltsága és viszonylag biztonságosak az újságírók. 
             </p>
+            <p>Ázsia és Afrika számos országa viszont gyakran az alacsonyabb helyeken szerepel a listán, ahol korlátozások és fenyegetések nehezítik az újságírók munkáját és korlátozzák a média szabadságát.</p>
             <p>
                 A legmagasabb értékekkel (tehát a legjobb sajtószabadsági helyzettel) általában olyan országok rendelkeznek, mint Norvégia, Svédország és Dánia, míg a legalacsonyabb értékekkel (vagyis a legrosszabb helyzettel) gyakran diktatórikus rendszerekkel rendelkező országok szoktak szerepelni, mint Észak-Korea és Eritrea.
             </p>
         </div>
+        <h2>1. ábra, a sajtószabadsági index országos értékei</h2>
         <div id="bar_chart"></div>
         </section>
 
 
         <section>
             <div class="chart-description"> <!-- we are grouping the title and description together so we can style them together -->
-                <h2>Section 2: Another Chart</h2>
+                <h2>2. ábra, a sajtószabadsági index országos értékei</h2>
                 <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                     This is a more advanced chart. We'll cover charts like this in more detail later today. Don't worry if you don't understand it yet.
                     Feel free to replace both charts with your own examples.
                 </p>
             </div>
             <div id="map_chart"></div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        </section>
+
+        <section>
+            <div class="chart-description"> <!-- we are grouping the title and description together so we can style them together -->
+                <h2>Section 7: Another Chart</h2>
+                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                    This is a more advanced chart. We'll cover charts like this in more detail later today. Don't worry if you don't understand it yet.
+                    Feel free to replace both charts with your own examples.
+                </p>
+            </div>
+            <div id="freedom"></div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
         </section>
 
 
