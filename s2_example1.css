@@ -36,12 +36,17 @@ h3, h4, h5, h6 {
   margin-top: 24px;
   margin-bottom: 16px;
   font-weight: 600;
+  text-align: justify; /* Align text to justify */
+  background-color: #f0f0f0; /* Background color for emphasis */
+  padding: 10px; /* Padding to add space around the text */
+  border-left: 5px solid #065f46; /* Left border for additional emphasis */
 }
 
 /* Paragraph */
 p {
   margin-bottom: 1em;
   font-weight: 300;
+  text-align: justify; /* Align text to justify */
 }
 
 section {
@@ -57,7 +62,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-  
+
 /* Images */
 img {
   max-width: 100%;
