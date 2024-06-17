@@ -15,7 +15,7 @@
 
 <body> 
     <h1 class="big" style="margin-bottom: 0px;"> 
-        Sajtószabadság Index világszinten
+        World Press Freedom Index - 2023
     </h1>
     <h2 style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
@@ -23,35 +23,33 @@
             href="https://github.com/sanita27">GitHub</a>
     </h2>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
-        A sajtószabadsági index egy nemzetközi mérőszám, amely a sajtószabadság szintjét mutatja az egyes országokban. Minél alacsonyabb az index értéke, annál kevésbé szabad a sajtó tevékenysége az adott országban. Az indexet évente frissítik és közzéteszik, hogy nyomon lehessen követni a világ különböző részein tapasztalható változásokat a sajtószabadság terén.
-    </h3>
+        The World Press Freedom Index (WPFI) is an annual ranking of countries compiled and published by Reporters Without Borders (RSF) since 2002 based upon the organization's own assessment of the countries' press freedom records in the previous year. It intends to reflect the degree of freedom that journalists, news organizations, and netizens have in each country, and the efforts made by authorities to respect this freedom. Reporters Without Borders is careful to note that the WPFI only deals with press freedom and does not measure the quality of journalism in the countries it assesses, nor does it look at human rights violations in general.    </h3>
 
-    <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
     <section>
         <div class="chart-description">
-            <h2>Sajtószabadság index értéke országonként</h2>
+            <h2>World Press Freedom index scores</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                A sajtószabadsági indexet általában civil szervezetek és médiafigyelő szervezetek állítják össze. Az index összeállítása során figyelembe veszik többek között az újságírók és médiumok függetlenségét, az állami és nem-állami befolyásolást, az újságírók biztonságát, valamint a jogi kereteket, amelyek védelmezik vagy korlátozzák a sajtó szabadságát.
+                The WPFI is partly based on a questionnaire that previously used seven general criteria: pluralism (measures the degree of representation of opinions in the media space), media independence, environment and self-censorship, legislative framework, transparency, infrastructure, and abuses. 
             </p>
             <p>
-                Általában Skandinávia és más északi országok szokták vezetni a sajtószabadsági indexet, mivel ezekben az országokban erős a sajtószabadság védelme, alacsony a média befolyásoltsága és viszonylag biztonságosak az újságírók. 
+                The methodology for the WPFI was dramatically changed in 2022 from the methodology used from 2013 to 2021, and the thresholds for each categorisation have been shifted accordingly. The scores are now evaluated against five distinct categories: political context, legal framework, economic context, sociocultural context and safety.
             </p>
-            <p>Ázsia és Afrika számos országa viszont gyakran az alacsonyabb helyeken szerepel a listán, ahol korlátozások és fenyegetések nehezítik az újságírók munkáját és korlátozzák a média szabadságát.</p>
+            <p> Scandinavia and other Nordic countries usually top the press freedom index because they have strong press freedom protection, low media influence and relatively safe journalists. 
+                Many countries in Asia and Africa, on the other hand, often rank lower, where restrictions and threats make it difficult for journalists to work and limit media freedom.</p>
             <p>
-                A legmagasabb értékekkel (tehát a legjobb sajtószabadsági helyzettel) általában olyan országok rendelkeznek, mint Norvégia, Svédország és Dánia, míg a legalacsonyabb értékekkel (vagyis a legrosszabb helyzettel) gyakran diktatórikus rendszerekkel rendelkező országok szoktak szerepelni, mint Észak-Korea és Eritrea.
-            </p>
+                Countries with the highest scores tend to be Norway, Sweden and Denmark, while countries with the lowest scores (i.e. the worst situation) are often countries with dictatorial regimes, such as North Korea and Eritrea.             </p>
         </div>
-        <h2>1. ábra, a sajtószabadsági index országos értékei</h2>
+        <h2>Figure 1, World Press Freedom index scores</h2>
         <div id="bar_chart"></div>
         </section>
 
 
         <section>
             <div class="chart-description"> <!-- we are grouping the title and description together so we can style them together -->
-                <h2>2. ábra, a sajtószabadsági index országos értékei</h2>
+                <h2>Figure 2, World Press Freedom index scores</h2>
                 <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                    A 2023-as sajtószabadsági index szerint a legmagasabb sajtószabadságot Norvégia élvezi, amely már hetedik éve vezeti a listát. Norvégiát Dánia és Svédország követi a második és harmadik helyen. Ezek az országok stabil politikai környezetet, erős jogi védelmet és gazdasági támogatást biztosítanak az újságírók számára, ami hozzájárul a sajtószabadság magas szintjéhez.
-Ezzel szemben a lista legalján Észak-Korea, Eritrea, Kína és Vietnam található. 
+                    The highest press freedom according to the 2023 Press Freedom Index is in Norway, which tops the list for the seventh year running. Norway is followed by Denmark and Sweden in second and third place. These countries provide a stable political environment, strong legal protection and economic support for journalists, which contributes to a high level of press freedom.
+In contrast, North Korea, Eritrea, China and Vietnam are at the bottom of the list. 
                 </p>
             </div>
             <div id="map_chart"></div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
@@ -59,21 +57,19 @@ Ezzel szemben a lista legalján Észak-Korea, Eritrea, Kína és Vietnam találh
 
         <section>
             <div class="chart-description"> <!-- we are grouping the title and description together so we can style them together -->
-                <h2>3. ábra, Sajtószabadsági index országos értékei, 2023 </h2>
+                <h2>Figure 3, World Press Freedom index scores, 2023 </h2>
 
                 <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                    A következő ábra a Sajtószabadsági index 2023-ra vonatkozó pontszámait mutatja, az országokat a sajtószabadság öt szintjébe sorolva a "nagyon súlyos" (0-40) és a "jó" (85-100) között. Egy fekete függőleges vonal jelöli az 59,2-es medián pontszámot, külön megjegyzésekkel Észak-Korea (21,7) és Norvégia (95,2) esetében. Az egyes országok pontszámai további, a lebegtetéskor elérhető kontextuális információkat is tartalmaznak, mint például a politikai, gazdasági, jogi keret, biztonság és szociokulturális kontextus pontszámai.
-                </p>
+                    The following figure shows the Press Freedom Index scores for 2023, ranking countries in five levels of press freedom, from "very serious" (0-40) to "good" (85-100). A black vertical line indicates a median score of 59.2, with special notes for North Korea (21.7) and Norway (95.2). The scores for each country also include additional contextual information available at float, such as scores for political, economic, legal framework, security and socio-cultural context.                </p>
             </div>
             <div id="freedom"></div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
         </section>
 
         <section>
             <div class="chart-description"> <!-- we are grouping the title and description together so we can style them together -->
-                <h2>4. ábra, Országos összehasonlítás</h2>
+                <h2>Figure 4, Country comparison</h2>
                 <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                    A következő ábra, a heatmap a sajtószabadság-indexet különböző kontextusokban (politikai, gazdasági, jogi, társadalmi-kulturális és biztonsági) hasonlítja össze Norvégia, Románia és Magyarország esetében. Az 1. helyen álló Norvégia általában minden kontextusban a legmagasabb pontszámot kapta, míg a 85. helyen álló Magyarország alacsonyabb pontszámot ért el, különösen a gazdasági kontextusban. Az 56. helyen álló Románia a legtöbb kontextusban a kettő között helyezkedik el, ami a sajtószabadsággal kapcsolatos kihívások különböző szintjét jelzi.
-                </p>
+                    The following heatmap compares the press freedom index in different contexts (political, economic, legal, socio-cultural and security) for Norway, Romania and Hungary. Norway, ranked 1st, generally scored the highest in all contexts, while Hungary, ranked 85th, scored lower, especially in the economic context. Romania, ranked 56th, falls in between in most contexts, indicating different levels of challenges to press freedom.                </p>
             </div>
             <div id="comparison"></div><!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
         </section>
@@ -81,11 +77,10 @@ Ezzel szemben a lista legalján Észak-Korea, Eritrea, Kína és Vietnam találh
 
     <section>
         <div class="chart-description"> <!-- we are grouping the title and description together so we can style them together -->
-            <h2>5. ábra, Sajtószabadsági index és politikai kontextus kapcsolata</h2>
+            <h2>Figure 5, Press freedom index and political context</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 
-A szórásdiagram a sajtószabadság-pontszámok és a politikai kontextus pontszámai közötti kapcsolatot szemlélteti különböző országok esetében, az adatpontokat kontinensek szerint színezve. Az ábra pozitív korrelációt mutat, ami azt jelzi, hogy a nagyobb sajtószabadság általában jobb politikai környezethez kapcsolódik. Az egyes kontinensek országait különböző színekkel ábrázoljuk, így az adatok eloszlását földrajzi szempontból is szemléltetjük.
-
+                The scatterplot illustrates the relationship between press freedom scores and political context scores for different countries, with data points coloured by continent. The graph shows a positive correlation, indicating that greater press freedom is generally associated with a better political context. Countries from each continent are shown in different colours to illustrate the distribution of the data geographically.
             </p>
         </div>
         <div id="political"></div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
@@ -93,21 +88,19 @@ A szórásdiagram a sajtószabadság-pontszámok és a politikai kontextus ponts
 
     <section>
         <div class="chart-description"> <!-- we are grouping the title and description together so we can style them together -->
-            <h2>6. ábra, sajtószabadsági index és jogi keretrendszer kapcsolata</h2>
+            <h2>Figure 6, Press freedom index and legal framework</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 
-A következő szórásdiagram a sajtószabadság-pontszámok és a jogi keretrendszer-pontszámok közötti kapcsolatot szemlélteti, és pozitív korrelációt mutat, ahol a jobb sajtószabadság erősebb jogi keretekkel jár együtt. Minden egyes adatpont egy-egy országot jelöl, kontinensek szerint színezve, a körök mérete pedig a gazdasági kontextus pontszámát jelzi. Ez a vizualizáció segít megérteni, hogy a jogi keretek és a gazdasági kontextus hogyan változik a különböző régiókban, és milyen hatással van a sajtószabadságra.
-            </p>
+                The following scatterplot illustrates the relationship between press freedom scores and legal framework scores, and shows a positive correlation where better press freedom is associated with stronger legal frameworks. Each data point represents a country, coloured by continent, and the size of the circles indicates the economic context score. This visualisation helps to understand how the legal framework and economic context varies across regions and how it affects press freedom.            </p>
         </div>
         <div id="legal"></div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
     <section>
         <div class="chart-description"> <!-- we are grouping the title and description together so we can style them together -->
-            <h2>7. ábra, Sajtószabadsági index és a biztonsági érték közötti kapcsolat</h2>
+            <h2>Figure 7, Press freedom index and the security score</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                A biztonsági helyzet és a sajtószabadsági index közötti kapcsolat egyértelmű: ahol az újságírók biztonsága biztosított, ott a sajtószabadság is magasabb szintű. Az újságírók biztonságának hiánya, legyen az fizikai, jogi vagy pszichológiai zaklatás formájában, jelentős mértékben csökkenti a sajtószabadságot, mivel az újságírók ilyen környezetben nem tudnak szabadon és objektíven dolgozni.
-            </p>
+                The link between the security situation and the press freedom index is clear: where journalists are safe, press freedom is higher. The lack of security for journalists, whether in the form of physical, legal or psychological harassment, significantly reduces press freedom, as journalists cannot work freely and objectively in such an environment.            </p>
         </div>
         <div id="safety"></div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
@@ -115,10 +108,9 @@ A következő szórásdiagram a sajtószabadság-pontszámok és a jogi keretren
     <section>
         <div class="chart-description"> <!-- we are grouping the title and description together so we can style them together -->
             <h2></h2>
-            <h2>Összefoglaló</h2>
+            <h2>Summary</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                A 2023-as Sajtószabadsági Index arra világít rá, hogy bár vannak pozitív fejlemények és előrelépések a sajtószabadság terén, számos országban még mindig komoly kihívásokkal kell szembenézni. A politikai és gazdasági nyomás, a digitális tér új fenyegetései és az újságírók biztonságának hiánya mind olyan tényezők, amelyek negatívan befolyásolják a sajtószabadság állapotát világszerte. A nemzetközi közösség és a helyi társadalmak számára egyaránt fontos, hogy folyamatosan figyelemmel kísérjék és támogassák a sajtószabadságot, hogy az újságírók biztonságban és szabadon végezhessék munkájukat.
-            </p>
+                The Press Freedom Index 2023 shows that while there have been positive developments and progress in press freedom, there are still serious challenges in many countries. Political and economic pressures, new threats in the digital space and the lack of security for journalists are all factors that negatively affect the state of press freedom worldwide. It is important for the international community and local societies alike to continuously monitor and support press freedom so that journalists can work safely and freely.            </p>
         </div>
     </section>
 
