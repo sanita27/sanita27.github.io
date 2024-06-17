@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "World Press Freedom Index Scores in 2023",
-  "width": 800,
-  "height": 400,
+  "width": 1000,
+  "height": 350,
   "title": {
     "text": "World Press Freedom Index Scores in 2023",
     "fontSize": 22,
