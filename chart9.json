@@ -1,0 +1,86 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Heatmap comparing Press Freedom Scores across different contexts for Romania, Hungary, and Norway.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/merged_data_with_year.csv",
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "filter": "datum.Country == 'Romania' || datum.Country == 'Hungary' || datum.Country == 'Norway'"
+      },
+      {
+        "fold": ["Political Context", "Economic Context", "Legal Framework", "Sociocultural Context", "Safety Score"],
+        "as": ["Context", "Score"]
+      },
+      {
+        "calculate": "datum.Country + ' (' + datum.Ranking + 'th)'",
+        "as": "CountryRanking"
+      }
+    ],
+    "width": 700,
+    "height": 200,
+    "title": {
+      "text": "Press Freedom Index: Comparison by Context",
+      "fontSize": 18,
+      "anchor": "middle"
+    },
+    "mark": {
+      "type": "rect",
+      "stroke": "white",
+      "strokeWidth": 2
+    },
+    "encoding": {
+      "x": {
+        "field": "Context",
+        "type": "nominal",
+        "title": null,
+        "sort": ["Political Context", "Economic Context", "Legal Framework", "Sociocultural Context", "Safety Score"],
+        "axis": {
+          "labelFontSize": 12,
+          "labelAngle": 0
+        }
+      },
+      "y": {
+        "field": "CountryRanking",
+        "type": "nominal",
+        "title": null,
+        "sort": ["Romania", "Hungary", "Norway"],
+        "axis": {
+          "labelFontSize": 12,
+          "labelAngle": 0
+        }
+      },
+      "color": {
+        "field": "Score",
+        "type": "quantitative",
+        "scale": {
+          "scheme": "reds",
+          "domain": [0, 100]
+        },
+        "legend": {
+          "title": "Indicator Score",
+          "titleFontSize": 12,
+          "labelFontSize": 12,
+          "orient": "top",
+          "gradientLength": 200
+        }
+      },
+      "tooltip": [
+        {"field": "Country", "type": "nominal"},
+        {"field": "Context", "type": "nominal"},
+        {"field": "Score", "type": "quantitative"}
+      ]
+    },
+    "config": {
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14
+      },
+      "legend": {
+        "labelFontSize": 12,
+        "titleFontSize": 14
+      }
+    }
+  }
+  

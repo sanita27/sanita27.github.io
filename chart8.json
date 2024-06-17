@@ -1,116 +1,119 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "World Press Freedom Index Scores in 2023",
-    "width": 800,
-    "height": 400,
-    "data": {
-      "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/merged_data_with_year.csv",
-      "format": {"type": "csv"}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "World Press Freedom Index Scores in 2023",
+  "width": 800,
+  "height": 400,
+  "title": {
+    "text": "World Press Freedom Index Scores in 2023",
+    "fontSize": 22,
+    "fontWeight": "bold",
+    "anchor": "middle"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/merged_data_with_year.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "window": [{"op": "rank", "as": "rank"}],
+      "groupby": ["Score"]
     },
-    "transform": [
-      {
-        "window": [{"op": "rank", "as": "rank"}],
-        "groupby": ["Score"]
-      },
-      {
-        "calculate": "datum.rank + (random() - 0.5)",
-        "as": "jitter"
-      },
-      {
-        "calculate": "datum.Score <= 40 ? 'Very Serious (0-40)' : datum.Score <= 55 ? 'Difficult (40-55)' : datum.Score <= 70 ? 'Problematic (55-70)' : datum.Score <= 85 ? 'Satisfactory (70-85)' : 'Good (85-100)'",
-        "as": "Category"
+    {
+      "calculate": "datum.rank + (random() - 0.5)",
+      "as": "jitter"
+    },
+    {
+      "calculate": "datum.Score <= 40 ? 'Very Serious (0-40)' : datum.Score <= 55 ? 'Difficult (40-55)' : datum.Score <= 70 ? 'Problematic (55-70)' : datum.Score <= 85 ? 'Satisfactory (70-85)' : 'Good (85-100)'",
+      "as": "Category"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "circle", "opacity": 0.8, "stroke": "black", "strokeWidth": 0.5},
+      "encoding": {
+        "x": {
+          "field": "Score",
+          "type": "quantitative",
+          "scale": {"domain": [0, 100]},
+          "axis": {"title": "Press Freedom Score", "labelFontSize": 16, "titleFontSize": 18, "titleFontWeight": "bold"}
+        },
+        "y": {
+          "field": "jitter",
+          "type": "quantitative",
+          "axis": null
+        },
+        "color": {
+          "field": "Category",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Very Serious (0-40)", "Difficult (40-55)", "Problematic (55-70)", "Satisfactory (70-85)", "Good (85-100)"],
+            "range": ["#d73027", "#fc8d59", "#fee08b", "#d9ef8b", "#91cf60", "#1a9850"]
+          },
+          "legend": {
+            "title": null,
+            "orient": "top",
+            "symbolType": "circle",
+            "symbolSize": 300,
+            "labelFontSize": 16
+          }
+        },
+        "size": {"value": 120},
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Score", "type": "quantitative"},
+          {"field": "Political Context", "type": "quantitative"},
+          {"field": "Economic Context", "type": "quantitative"},
+          {"field": "Legal Framework", "type": "quantitative"},
+          {"field": "Safety Score", "type": "quantitative"},
+          {"field": "Sociocultural Context", "type": "quantitative"},
+          {"field": "Ranking", "type": "quantitative"}
+        ]
       }
-    ],
-    "layer": [
-      {
-        "mark": {"type": "circle", "opacity": 0.8, "stroke": "black", "strokeWidth": 0.5},
-        "encoding": {
-          "x": {
-            "field": "Score",
-            "type": "quantitative",
-            "scale": {"domain": [0, 100]},
-            "axis": {"title": "Press Freedom Score", "labelFontSize": 14, "titleFontSize": 16}
-          },
-          "y": {
-            "field": "jitter",
-            "type": "quantitative",
-            "axis": null
-          },
-          "color": {
-            "field": "Category",
-            "type": "nominal",
-            "scale": {
-              "domain": ["Very Serious (0-40)", "Difficult (40-55)", "Problematic (55-70)", "Satisfactory (70-85)", "Good (85-100)"],
-              "range": ["#d73027", "#fc8d59", "#fee08b", "#d9ef8b", "#91cf60", "#1a9850"]
-            },
-            "legend": {
-              "title": null,
-              "orient": "top",
-              "symbolType": "circle",
-              "symbolSize": 200,
-              "labelFontSize": 14
-            }
-          },
-          "size": {"value": 100},
-          "tooltip": [
-            {"field": "Country", "type": "nominal"},
-            {"field": "Score", "type": "quantitative"},
-            {"field": "Political Context", "type": "quantitative"},
-            {"field": "Economic Context", "type": "quantitative"},
-            {"field": "Legal Framework", "type": "quantitative"},
-            {"field": "Safety Score", "type": "quantitative"},
-            {"field": "Sociocultural Context", "type": "quantitative"},
-            {"field": "Ranking", "type": "quantitative"}
-          ]
-        }
-      },
-      {
-        "mark": "rule",
-        "encoding": {
-          "x": {"datum": 59.2},
-          "size": {"value": 3},
-          "color": {"value": "black"}
-        }
-      },
-      {
-        "mark": {"type": "text", "dx": 10, "dy": -20},
-        "encoding": {
-          "x": {"datum": 59.2},
-          "y": {"datum": 0},
-          "text": {"value": "MEDIAN\n59.2"},
-          "align": {"value": "left"},
-          "baseline": {"value": "middle"},
-          "fontSize": {"value": 14}
-        }
-      },
-      {
-        "mark": {"type": "text", "dx": -10},
-        "encoding": {
-          "x": {"datum": 21.7},
-          "y": {"datum": 0},
-          "text": {"value": "North Korea\n21.7"},
-          "align": {"value": "right"},
-          "baseline": {"value": "middle"},
-          "fontSize": {"value": 14}
-        }
-      },
-      {
-        "mark": {"type": "text", "dx": 10},
-        "encoding": {
-          "x": {"datum": 95.2},
-          "y": {"datum": 0},
-          "text": {"value": "Norway\n95.2"},
-          "align": {"value": "left"},
-          "baseline": {"value": "middle"},
-          "fontSize": {"value": 14}
-        }
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "x": {"datum": 59.2},
+        "size": {"value": 3},
+        "color": {"value": "black"}
       }
-    ],
-    "config": {
-      "axis": {
-        "labelFontSize": 14,
-        "titleFontSize": 16
+    },
+    {
+      "mark": {"type": "text", "dx": 10, "dy": -20, "fontWeight": "bold", "fontSize": 16},
+      "encoding": {
+        "x": {"datum": 59.2},
+        "y": {"datum": 0},
+        "text": {"value": "MEDIAN\n59.2"},
+        "align": {"value": "left"},
+        "baseline": {"value": "middle"}
+      }
+    },
+    {
+      "mark": {"type": "text", "dx": -10, "fontWeight": "bold", "fontSize": 16},
+      "encoding": {
+        "x": {"datum": 21.7},
+        "y": {"datum": 0},
+        "text": {"value": "North Korea\n21.7"},
+        "align": {"value": "right"},
+        "baseline": {"value": "middle"}
+      }
+    },
+    {
+      "mark": {"type": "text", "dx": 10, "fontWeight": "bold", "fontSize": 16},
+      "encoding": {
+        "x": {"datum": 95.2},
+        "y": {"datum": 0},
+        "text": {"value": "Norway\n95.2"},
+        "align": {"value": "left"},
+        "baseline": {"value": "middle"}
       }
     }
+  ],
+  "config": {
+    "axis": {
+      "labelFontSize": 16,
+      "titleFontSize": 18,
+      "titleFontWeight": "bold"
+    }
   }
-  
+}

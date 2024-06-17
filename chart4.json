@@ -5,82 +5,81 @@
     "width": 800,
     "height": 400,
     "params": [
-        {
-            "name": "selectedContinent",
-            "value": "All",
-            "bind": {
-                "input": "select",
-                "options": ["All", "Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
-                "labels": ["All", "Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
-                "name": "Continent: "
-            }
-        },
-        {
-            "name": "projectionCenter",
-            "value": [0, 0],
-            "expr": "selectedContinent === 'All' ? [0, 0] : selectedContinent === 'Africa' ? [20, 0] : selectedContinent === 'Asia' ? [100, 40] : selectedContinent === 'Europe' ? [10, 50] : selectedContinent === 'North America' ? [-100, 40] : selectedContinent === 'Oceania' ? [140, -25] : selectedContinent === 'South America' ? [-60, -15] : [0, 0]"
-        },
-        {
-            "name": "projectionScale",
-            "value": 150,
-            "expr": "selectedContinent === 'All' ? 150 : 300"
+      {
+        "name": "selectedContinent",
+        "value": "All",
+        "bind": {
+          "input": "select",
+          "options": ["All", "Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
+          "labels": ["All", "Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
+          "name": "Continent: "
         }
+      },
+      {
+        "name": "projectionCenter",
+        "expr": "selectedContinent === 'All' ? [0, 0] : selectedContinent === 'Africa' ? [20, 0] : selectedContinent === 'Asia' ? [100, 40] : selectedContinent === 'Europe' ? [10, 50] : selectedContinent === 'North America' ? [-100, 40] : selectedContinent === 'Oceania' ? [140, -25] : selectedContinent === 'South America' ? [-60, -15] : [0, 0]"
+      },
+      {
+        "name": "projectionScale",
+        "expr": "selectedContinent === 'All' ? 150 : 300"
+      }
     ],
     "data": {
-        "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/countries.geojson",
-        "format": {
-            "type": "json",
-            "property": "features"
-        }
+      "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/countries.geojson",
+      "format": {
+        "type": "json",
+        "property": "features"
+      }
     },
     "transform": [
-        {
-            "lookup": "properties.name",
-            "from": {
-                "data": {
-                    "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/merged_data_with_year.csv",
-                    "format": {
-                        "type": "csv"
-                    }
-                },
-                "key": "Country",
-                "fields": ["Score", "Continent"]
+      {
+        "lookup": "properties.name",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/updated_merged_data_with_year.csv",
+            "format": {
+              "type": "csv"
             }
-        },
-        {
-            "filter": "selectedContinent == 'All' || datum.Continent == selectedContinent"
-        },
-        {
-            "calculate": "datum.Score === 'No Data' ? 'No Data' : +datum.Score",
-            "as": "Score"
+          },
+          "key": "Country",
+          "fields": ["Score", "Continent"]
         }
+      },
+      {
+        "filter": "selectedContinent == 'All' || datum.Continent == selectedContinent"
+      },
+      {
+        "calculate": "datum.Country === 'Ivory Coast' ? 'Côte dIvoire' : datum.Country === 'United States' ? 'United States of America' : datum.Country === 'Tanzania' ? 'Tanzania, United Republic of' : datum.Country === 'Democratic Republic of Congo' ? 'Congo, Democratic Republic of the' : datum.Country === 'Serbia' ? 'Republic of Serbia' : datum.Country",
+        "as": "Country"
+      }
     ],
     "projection": {
-        "type": "equalEarth",
-        "center": {"signal": "projectionCenter"},
-        "scale": {"signal": "projectionScale"}
+      "type": "equalEarth",
+      "center": {"expr": "projectionCenter"},
+      "scale": {"expr": "projectionScale"}
     },
     "mark": {
-        "type": "geoshape",
-        "stroke": "black",
-        "strokeWidth": 0.5
+      "type": "geoshape",
+      "stroke": "black",
+      "strokeWidth": 0.5
     },
     "encoding": {
-        "color": {
-            "field": "Score",
-            "type": "quantitative",
-            "scale": {
-                "type": "linear",
-                "domain": [0, 100],
-                "range": ["#f7fbff", "#08306b"]
-            },
-            "legend": {
-                "title": "Press Freedom Score"
-            }
+      "color": {
+        "field": "Score",
+        "type": "quantitative",
+        "scale": {
+          "type": "linear",
+          "domain": [0, 100],
+          "range": ["#d73027", "#fee08b", "#1a9850"]
         },
-        "tooltip": [
-            {"field": "properties.name", "type": "nominal", "title": "Country"},
-            {"field": "Score", "type": "quantitative"}
-        ]
+        "legend": {
+          "title": "Press Freedom Score"
+        }
+      },
+      "tooltip": [
+        {"field": "properties.name", "type": "nominal", "title": "Country"},
+        {"field": "Score", "type": "quantitative"}
+      ]
     }
-}
+  }
+  

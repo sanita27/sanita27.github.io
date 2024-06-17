@@ -31,7 +31,9 @@
             {"field": "Country", "type": "nominal"},
             {"field": "Score", "type": "quantitative"},
             {"field": "Political Context", "type": "quantitative"},
-            {"field": "Continent", "type": "nominal"}
+            {"field": "Continent", "type": "nominal"},
+            {"field": "Ranking", "type": "quantitative"}
+
         ]
     }
 }

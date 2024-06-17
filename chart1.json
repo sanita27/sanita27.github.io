@@ -1,58 +1,71 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Bar chart showing the press freedom score by country, filtered by continent.",
-  "title": "Press Freedom Scores by Country",
-  "data": {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Bar chart showing the press freedom score by country, filtered by continent.",
+    "title": "Press Freedom Scores by Country",
+    "data": {
       "url": "https://raw.githubusercontent.com/sanita27/sanita27.github.io/main/merged_data.csv",
       "format": {
-          "type": "csv"
+        "type": "csv"
       }
-  },
-  "params": [
+    },
+    "params": [
       {
-          "name": "continentFilter",
-          "value": "Europe",
-          "select": {
-              "type": "point",
-              "fields": ["Continent"]
-          },
-          "bind": {
-              "input": "select",
-              "options": [
-                  "Africa",
-                  "Asia",
-                  "Europe",
-                  "North America",
-                  "Oceania",
-                  "South America"
-              ],
-              "labels": [
-                  "Africa",
-                  "Asia",
-                  "Europe",
-                  "North America",
-                  "Oceania",
-                  "South America"
-              ],
-              "name": "Continent: "
-          }
+        "name": "continentFilter",
+        "value": "Europe",
+        "select": {
+          "type": "point",
+          "fields": ["Continent"]
+        },
+        "bind": {
+          "input": "select",
+          "options": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "North America",
+            "Oceania",
+            "South America"
+          ],
+          "labels": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "North America",
+            "Oceania",
+            "South America"
+          ],
+          "name": "Continent: "
+        }
       }
-  ],
-  "transform": [
+    ],
+    "transform": [
       {
-          "filter": {
-              "param": "continentFilter",
-              "empty": false
-          }
+        "filter": {
+          "param": "continentFilter",
+          "empty": false
+        }
       }
-  ],
-  "mark": "bar",
-  "encoding": {
+    ],
+    "mark": "bar",
+    "encoding": {
       "x": {"field": "Country", "type": "ordinal", "sort": "-y"},
       "y": {"field": "Score", "type": "quantitative"},
+      "color": {
+        "field": "Score",
+        "type": "quantitative",
+        "scale": {
+          "domain": [0, 100],
+          "range": ["#d73027", "#fee08b", "#1a9850"]
+        },
+        "legend": {
+          "title": "Press Freedom Score"
+        }
+      },
       "tooltip": [
-          {"field": "Country", "type": "nominal"},
-          {"field": "Score", "type": "quantitative"}
+        {"field": "Country", "type": "nominal"},
+        {"field": "Score", "type": "quantitative"},
+        {"field": "Ranking", "type": "quantitative"}
       ]
+    }
   }
-}
+  
